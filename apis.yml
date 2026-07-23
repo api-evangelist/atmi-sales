@@ -1,8 +1,15 @@
 aid: atmi-sales
 name: ATMI Sales
-description: 'ATMI Sales is a company surfaced as a portfolio company of sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'ATMI Sales (Advanced Technical Marketing Inc.) is a manufacturers'' representative
+  and technical sales firm serving the electronics and semiconductor industry across
+  the Pacific Northwest and Western Canada. The company connects customers with component
+  suppliers through a research, development, and build model — identifying suitable
+  technology solutions, building supplier relationships, and ensuring component availability
+  and supply-chain sourcing in the regions where products are manufactured. ATMI maintains
+  a line card of partner technologies and works with distributors to fulfill orders.
+  This is a non-developer B2B sales and distribution company; it publishes no public
+  API, SDK, or developer program. Surfaced as a portfolio company of sierra-ventures
+  and profiled in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/atmi-sales/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.atmisales.com/wp-content/uploads/2021/10/ATMI-Blue-Black-Logo-Vector.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Saas
+- Electronics
+- Semiconductors
+- Manufacturers Representative
+- Component Sourcing
+- Supply Chain
+- Technical Sales
+- Distribution
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://atmisales.com/
+  url: https://www.atmisales.com/
+- type: Blog
+  url: https://www.atmisales.com/latest-news/
+- type: Support
+  url: https://www.atmisales.com/contact/
+- type: DomainSecurity
+  url: security/atmi-sales-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
